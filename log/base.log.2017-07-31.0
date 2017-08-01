@@ -1,0 +1,79 @@
+2017-07-31 14:57:17,502 INFO (StartupInfoLogger.java:48)- Starting DemoApplication on abc with PID 5556 (E:\springbootDemo\demo\target\classes started by Administrator in E:\springbootDemo\demo)
+2017-07-31 14:57:17,514 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-31 14:57:17,515 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-07-31 14:57:23,166 INFO (StartupInfoLogger.java:57)- Started DemoApplication in 6.248 seconds (JVM running for 7.261)
+2017-07-31 14:57:36,391 DEBUG (IndexController.java:33)- 访问hello卞朝
+2017-07-31 14:57:40,187 DEBUG (IndexController.java:17)- 访问hello
+2017-07-31 15:16:58,174 INFO (StartupInfoLogger.java:48)- Starting DemoApplicationTests on abc with PID 8628 (started by Administrator in E:\springbootDemo\demo)
+2017-07-31 15:16:58,175 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-31 15:16:58,176 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-07-31 15:17:02,923 INFO (StartupInfoLogger.java:57)- Started DemoApplicationTests in 5.113 seconds (JVM running for 6.407)
+2017-07-31 16:15:09,759 INFO (StartupInfoLogger.java:48)- Starting DemoApplication on abc with PID 11016 (E:\springbootDemo\demo\target\classes started by Administrator in E:\springbootDemo\demo)
+2017-07-31 16:15:10,273 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-31 16:15:10,274 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-07-31 16:15:24,250 INFO (StartupInfoLogger.java:57)- Started DemoApplication in 17.699 seconds (JVM running for 23.391)
+2017-07-31 16:16:21,878 DEBUG (StringRedisController.java:32)- 访问get:key=username
+2017-07-31 16:22:42,369 INFO (StartupInfoLogger.java:48)- Starting DemoApplication on abc with PID 11124 (E:\springbootDemo\demo\target\classes started by Administrator in E:\springbootDemo\demo)
+2017-07-31 16:22:42,374 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-31 16:22:42,374 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-07-31 16:22:47,564 INFO (StartupInfoLogger.java:57)- Started DemoApplication in 5.667 seconds (JVM running for 6.299)
+2017-07-31 16:22:58,454 DEBUG (StringRedisController.java:32)- 访问get:key=username
+2017-07-31 16:23:42,020 DEBUG (StringRedisController.java:25)- 访问set:key=username,value=allenwish
+2017-07-31 16:23:54,410 DEBUG (StringRedisController.java:32)- 访问get:key=username
+2017-07-31 16:25:13,502 DEBUG (StringRedisController.java:25)- 访问set:key=username,value=艾伦维斯
+2017-07-31 16:25:20,737 DEBUG (StringRedisController.java:32)- 访问get:key=username
+2017-07-31 16:34:16,454 INFO (StartupInfoLogger.java:48)- Starting DemoApplication on abc with PID 11796 (E:\springbootDemo\demo\target\classes started by Administrator in E:\springbootDemo\demo)
+2017-07-31 16:34:16,456 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-31 16:34:16,457 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-07-31 16:34:21,674 INFO (StartupInfoLogger.java:57)- Started DemoApplication in 5.628 seconds (JVM running for 6.169)
+2017-07-31 16:39:00,179 INFO (StartupInfoLogger.java:48)- Starting DemoApplication on abc with PID 13284 (E:\springbootDemo\demo\target\classes started by Administrator in E:\springbootDemo\demo)
+2017-07-31 16:39:00,182 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-31 16:39:00,183 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-07-31 16:39:04,809 INFO (StartupInfoLogger.java:57)- Started DemoApplication in 5.034 seconds (JVM running for 5.569)
+2017-07-31 16:40:14,417 DEBUG (StringRedisController.java:25)- 访问set:key=allen,value=null
+2017-07-31 16:40:35,123 DEBUG (StringRedisController.java:25)- 访问set:key=allen,value=allen
+2017-07-31 16:43:06,638 INFO (StartupInfoLogger.java:48)- Starting DemoApplication on abc with PID 12760 (E:\springbootDemo\demo\target\classes started by Administrator in E:\springbootDemo\demo)
+2017-07-31 16:43:06,643 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-31 16:43:06,644 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-07-31 16:43:11,820 INFO (StartupInfoLogger.java:57)- Started DemoApplication in 5.595 seconds (JVM running for 6.159)
+2017-07-31 16:43:46,213 DEBUG (ObjectRedisController.java:21)- 访问setUser:id=1,name=allenwish,age=18
+2017-07-31 16:43:58,963 DEBUG (ObjectRedisController.java:28)- 获取getUser:id=1
+2017-07-31 16:46:02,761 DEBUG (ObjectRedisController.java:21)- 访问setUser:id=1,name=艾伦维斯,age=18
+2017-07-31 16:46:13,818 DEBUG (ObjectRedisController.java:28)- 获取getUser:id=1
+2017-07-31 17:00:42,259 INFO (StartupInfoLogger.java:48)- Starting DemoApplication on abc with PID 11352 (E:\springbootDemo\demo\target\classes started by Administrator in E:\springbootDemo\demo)
+2017-07-31 17:00:42,262 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-31 17:00:42,262 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-07-31 17:00:47,068 INFO (StartupInfoLogger.java:57)- Started DemoApplication in 5.215 seconds (JVM running for 5.717)
+2017-07-31 17:01:22,316 DEBUG (ObjectRedisController.java:21)- 访问setUser:id=2,name=艾伦维斯,age=21
+2017-07-31 17:01:32,175 DEBUG (ObjectRedisController.java:28)- 获取getUser:id=2
+2017-07-31 17:01:48,268 DEBUG (StringRedisController.java:25)- 访问set:key=allen,value=allenwish
+2017-07-31 17:01:56,764 DEBUG (StringRedisController.java:32)- 访问get:key=allen
+2017-07-31 17:02:22,191 DEBUG (ObjectRedisController.java:28)- 获取getUser:id=1
+2017-07-31 17:02:28,135 DEBUG (ObjectRedisController.java:28)- 获取getUser:id=2
+2017-07-31 17:02:47,194 DEBUG (ObjectRedisController.java:28)- 获取getUser:id=1
+2017-07-31 17:13:55,858 INFO (StartupInfoLogger.java:48)- Starting DemoApplicationTests on abc with PID 12868 (started by Administrator in E:\springbootDemo\demo)
+2017-07-31 17:13:55,859 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-31 17:13:55,859 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-07-31 17:14:00,880 INFO (StartupInfoLogger.java:57)- Started DemoApplicationTests in 5.405 seconds (JVM running for 6.833)
+2017-07-31 17:37:49,612 INFO (StartupInfoLogger.java:48)- Starting DemoApplication on abc with PID 12488 (E:\springbootDemo\demo\target\classes started by Administrator in E:\springbootDemo\demo)
+2017-07-31 17:37:49,631 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-31 17:37:49,631 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-07-31 17:41:52,248 INFO (StartupInfoLogger.java:48)- Starting DemoApplication on abc with PID 2068 (E:\springbootDemo\demo\target\classes started by Administrator in E:\springbootDemo\demo)
+2017-07-31 17:41:52,254 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-31 17:41:52,254 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-07-31 17:44:34,002 INFO (StartupInfoLogger.java:48)- Starting DemoApplication on abc with PID 11716 (E:\springbootDemo\demo\target\classes started by Administrator in E:\springbootDemo\demo)
+2017-07-31 17:44:34,004 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-31 17:44:34,005 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-07-31 17:44:43,654 INFO (StartupInfoLogger.java:57)- Started DemoApplication in 10.027 seconds (JVM running for 10.63)
+2017-07-31 17:45:12,444 DEBUG (DataController.java:28)- save 开始
+2017-07-31 17:45:12,838 DEBUG (DataController.java:30)- save 结束
+2017-07-31 17:45:34,294 DEBUG (DataController.java:28)- save 开始
+2017-07-31 17:45:34,416 DEBUG (DataController.java:30)- save 结束
+2017-07-31 17:45:42,750 DEBUG (DataController.java:28)- save 开始
+2017-07-31 17:45:42,794 DEBUG (DataController.java:30)- save 结束
+2017-07-31 17:45:51,364 DEBUG (DataController.java:28)- save 开始
+2017-07-31 17:45:51,453 DEBUG (DataController.java:30)- save 结束
+2017-07-31 17:46:04,946 DEBUG (DataController.java:36)- q1 开始
+2017-07-31 17:46:04,947 DEBUG (DataController.java:37)- q1 接收参数address=北京
+2017-07-31 17:46:17,141 DEBUG (DataController.java:58)- sort 开始
+2017-07-31 17:46:30,394 DEBUG (DataController.java:66)- page 开始
