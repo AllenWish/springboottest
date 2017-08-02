@@ -1,18 +1,27 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
 <!-- namespace必须指向Dao接口 -->  
 <mapper namespace="com.allenwish.demo.mapper.UserMapper">  
-    <resultMap id="ListUser" type="com.allenwish.demo.domain.TSUser" >  
+    <resultMap id="User" type="com.allenwish.demo.domain.TSUser" >  
         <result column="id" property="id" />  
         <result column="name" property="name" />  
         <result column="age" property="age" />  
         <result column="address" property="address" />  
     </resultMap>  
   
-    <!-- 根据ID查询数据 -->  
-    <select id="findByName" parameterType="String" resultMap="ListUser">  
+    <!-- 根据name查询数据 -->  
+    <select id="findByName" parameterType="String" resultMap="User">  
         select   
            id,name,age,address
         from tsuser
         where name = #{name}  
     </select>  
+    <!-- find all user -->
+    <select id="findAll" resultMap="User">
+     	select   
+           id,name,age,address
+        from tsuser
+    </select>
+    <insert id="insertUser" parameterType="com.allenwish.demo.domain.TSUser">
+    	insert into tsuser (name,age,address) values (#{name},#{age},#{address})
+    </insert>
 </mapper>  

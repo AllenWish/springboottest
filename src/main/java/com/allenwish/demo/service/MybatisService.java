@@ -16,4 +16,12 @@ public class MybatisService {
 	public List<TSUser> findByName(String name){
 		return userMapper.findByName(name);
 	}
+	
+	 public List<TSUser> findAll(){
+		 return userMapper.findAll();
+	 }
+	 
+	 public void insertUser(TSUser user){
+		 userMapper.insertUser(user);
+	 }
 }
