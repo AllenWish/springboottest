@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
+import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
 import org.slf4j.Logger;
@@ -56,5 +57,28 @@ public class IndexController {
 		model.put("id", UUID.randomUUID().toString());
 		model.put("content", "Hello AllenWish,greeting that you do it!!!");
 		return model;
+	}
+
+	//http://localhost:8080/getHighCharts
+	@RequestMapping("/getHighCharts")
+	public String getHighCharts() {
+		JSONObject j = new JSONObject();
+		JSONObject json = new JSONObject();
+		JSONArray arr = new JSONArray();
+
+		json.put("name", "吃货一号");
+		json.put("data", new Integer[] { 1, 0, 4, 2 });
+		arr.add(json);
+		json.put("name", "吃货二号");
+		json.put("data", new Integer[] { 1, 5, 3, 1 });
+		arr.add(json);
+		json.put("name", "吃货三号");
+		json.put("data", new Integer[] { 0, 3, 6, 5 });
+		arr.add(json);
+		j.put("d", arr);
+		j.put("c", new String[] { "2017年5月1日", "2017年5月2日", "2017年5月3日",
+				"2017年5月4日" });
+
+		return j.toString();
 	}
 }

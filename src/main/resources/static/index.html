@@ -2,6 +2,66 @@
 <html>
 <head>
 <title>Hello AngularJS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<script src="Highcharts-5.0.11/lib/jquery-1.8.3.min.js" type="text/javascript"></script>  
+    <script src="Highcharts-5.0.11/highcharts.js" type="text/javascript"></script>  
+    <!-- 添加主题样式js文件 -->  
+    <script src="Highcharts-5.0.11/themes/grid.js" type="text/javascript"></script>  
+    <!--添加导出模式 -->  
+    <script src="Highcharts-5.0.11/modules/exporting.js" type="text/javascript"></script>  
+    <script type="text/javascript">  
+    var options;
+	function showhighcharts(){
+    	
+	    //从后台获取json格式的数据  
+	    $.getJSON("getHighCharts" , function(data) {  
+	        //插入Json数据  
+	        options.series = data.d;  
+	        options.xAxis.categories = data.c;
+	        //初始化chart  
+	        var chart = new Highcharts.Chart(options);  
+	    });  
+    }
+    $(function() {  
+    	Highcharts.setOptions({
+            lang: {
+            	printChart:"打印图表",
+                downloadJPEG: "下载JPEG 图片" , 
+                downloadPDF: "下载PDF文档"  ,
+                downloadPNG: "下载PNG 图片"  ,
+                downloadSVG: "下载SVG 矢量图" , 
+                exportButtonTitle: "导出图片" 
+        	}
+        });
+        options = {  
+                chart : {  
+                    type : 'line' , //指定图表的类型，默认是折线图（line）  
+                    renderTo: 'container'  
+                },  
+                title : {  
+                    text : '吃货记录图' //指定图表标题  
+                },  
+                subtitle:{
+                	text : '五月份记录' //子标题
+                },
+                xAxis : {  
+                    categories : [ ] //指定x轴分组  
+                },  
+                credits: {  
+                    enabled: false     //不显示LOGO 
+                },
+                exporting: { enabled:false },//去掉右上角导出
+                yAxis : {  
+                    title : {  
+                        text : '个数'   // 指定y轴的标题  
+                    }  
+                },  
+                series : [ ]  //指定数据列,这里设为空，我们从后台拿数据  
+        };  
+        showhighcharts();
+    });  
+    
+    </script>  
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <style type="text/css">
 [ng\:cloak], [ng-cloak], .ng-cloak {
@@ -20,5 +80,15 @@
 	</div>
 	<script src="angular-1.6.5/angular.min.js" type="text/javascript"></script>
 	<script src="js/hello.js"></script>
+	
+	
+	<form id="form2">  
+	    <div>  
+	        <div id="container" style="width: 800px; height: 400px; margin: 0 auto">  
+	        </div>  
+	    </div>  
+	</form>  
+	
+	
 </body>
 </html>
